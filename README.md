@@ -12,4 +12,4 @@ Example input and output data:
 "Success"  =>  ")())())"
 "(( @"     =>  "))(("
 ```
-To convert a string, two implementation options were written - conversion in place (changing the string passed by reference) and conversion with the return of a new string. The program also provides a function for testing the conversion on random data.
+To convert a string, two implementation options were written - conversion in place by `convertToParenthesesString` function (changing the string passed by reference) and conversion with the return of a new string - `getParenthesesString` function. The program also provides a function `makeTests` for testing the conversion on random data.
