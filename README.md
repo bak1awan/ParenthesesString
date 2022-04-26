@@ -6,9 +6,10 @@ The goal is to convert the original string to a new string, where each character
 The task solution was written using the C++ language.
 
 Example input and output data:
-		"din"      =>  "((("
-		"recede"   =>  "()()()"
-		"Success"  =>  ")())())"
-		"(( @"     =>  "))(("
-
+```
+	"din"      =>  "((("
+	"recede"   =>  "()()()"
+	"Success"  =>  ")())())"
+	"(( @"     =>  "))(("
+```
 To convert a string, two implementation options were written - conversion in place (changing the string passed by reference) and conversion with the return of a new string. The program also provides a function for testing the conversion on random data.
